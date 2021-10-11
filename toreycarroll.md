@@ -1,12 +1,4 @@
-Choose 1 of the top 25 that you have personally put in code you used/submitted. 
- Do a deep dive on  that CWE (read all about it).
-Write up (at least) three paragraphs on the CWE, 
-how your code was vulnerable to it, and how you could have changed the code to not be vulnerable.  
-  
-* Be sure to include: 
-  * What it is, in your own words
-  * Some example CVEs
-  * What your personal experience is with it
+
   * How you could have fixed it (what would you need to have done to not implement this weakness in your code)
 
 
@@ -31,3 +23,9 @@ A few example CVE's would include:
 - CVE-2001-1550 "World-writable log files allow information loss; world-readable file has cleartext passwords."
 - CVE-2002-1711 "World-readable Directory" 
 ```
+
+I have some personal experiances with this CWE. In which relates to one of our previous projects
+when we were working with teammates. When I was creating files that other's could see, it somehow got created
+all to have read/write and execute access. I didn't learn until after submitting files to check on steps that
+this issue had occured. If this was a different scenerio, in which was not in a controled environement for school,
+this could have lead to a bigger issue, pending the time it took to notice the issue.
