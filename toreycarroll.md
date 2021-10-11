@@ -1,7 +1,3 @@
-
-  * How you could have fixed it (what would you need to have done to not implement this weakness in your code)
-
-
 Name of CWE:
 ```
 CWE-276: Incorrect Default Permissions
