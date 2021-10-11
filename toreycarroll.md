@@ -22,7 +22,8 @@ Incorrect Deault Permissons is a very big weakness in today's day. Incorrect Def
 Permissions CWE is when you are installing a package and/or file, and the 
 permissions of the file are enabled to allow world-wide edit and/or reading.
 This allows hackers or malicous users to be able to read and write to such files
-without the the user's knowledge. This is a big deal especially when installing OS's. or other files in which the outside world should not have access to.
+without the the user's knowledge. This is a big deal especially when installing OS's. or other
+ files in which the outside world should not have access to.
 
 A few example CVE's would include:
 - CVE-2005-1941 "Executables installed world-writable"
